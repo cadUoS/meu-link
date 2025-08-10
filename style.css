@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px 60px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    width: 320px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 1.8em;
+    letter-spacing: 1.5px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 14px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social i {
+  font-size: 1.5rem;
+}
+
+/* Cores específicas */
+.instagram {
+  background-color: #e1306c;
+  box-shadow: 0 4px 15px #e1306c88;
+}
+
+.linkedin {
+  background-color: #0077b5;
+  box-shadow: 0 4px 15px #0077b588;
+}
+
+.twitter {
+  background-color: #1da1f2;
+  box-shadow: 0 4px 15px #1da1f288;
+}
+
+.github {
+  background-color: #333;
+  box-shadow: 0 4px 15px #333888;
+}
+
+/* Efeito hover */
+.social:hover {
+  background-color: white;
+  color: inherit;
+  color: #000;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.instagram:hover {
+  color: #e1306c;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.github:hover {
+  color: #333;
+}
